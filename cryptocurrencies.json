@@ -1,0 +1,16 @@
+{
+  "cryptocurrencies": [
+    {
+      "name": "Bitcoin",
+      "description": "Первая и самая известная криптовалюта",
+      "price": "$100,423",
+      "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+    },
+    {
+      "name": "Ethereum",
+      "description": "Платформа для умных контрактов",
+      "price": "$3,412",
+      "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png"
+    }
+  ]
+}
