@@ -1,16 +1,144 @@
 {
   "cryptocurrencies": [
     {
-      "name": "Bitcoin",
-      "description": "Первая и самая известная криптовалюта",
-      "price": "$100,423",
-      "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+      "name": "Bitcoin (BTC)",
+      "description": "Первая и самая известная криптовалюта, созданная Сатоши Накамото в 2009 году. Использует технологию блокчейн и алгоритм Proof-of-Work. Лидер по рыночной капитализации.",
+      "price": "$61,423",
+      "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+      "marketCap": "$1.2 трлн"
     },
     {
-      "name": "Ethereum",
-      "description": "Платформа для умных контрактов",
+      "name": "Ethereum (ETH)",
+      "description": "Платформа для умных контрактов и децентрализованных приложений. Основана Виталиком Бутериным в 2015 году. В 2022 году перешла на Proof-of-Stake.",
       "price": "$3,412",
-      "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png"
+      "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+      "marketCap": "$409 млрд"
+    },
+    {
+      "name": "Binance Coin (BNB)",
+      "description": "Нативная монета биржи Binance, используется для оплаты комиссий, участия в IEO и других операций на платформе.",
+      "price": "$585",
+      "image": "https://cryptologos.cc/logos/bnb-bnb-logo.png",
+      "marketCap": "$89.5 млрд"
+    },
+    {
+      "name": "Solana (SOL)",
+      "description": "Высокопроизводительный блокчейн с поддержкой смарт-контрактов. Использует инновационный механизм Proof-of-History.",
+      "price": "$142",
+      "image": "https://cryptologos.cc/logos/solana-sol-logo.png",
+      "marketCap": "$63.2 млрд"
+    },
+    {
+      "name": "Cardano (ADA)",
+      "description": "Блокчейн-платформа с научным подходом к разработке. Основана одним из соучредителей Ethereum Чарльзом Хоскинсоном.",
+      "price": "$0.45",
+      "image": "https://cryptologos.cc/logos/cardano-ada-logo.png",
+      "marketCap": "$15.9 млрд"
+    },
+    {
+      "name": "Ripple (XRP)",
+      "description": "Криптовалюта для банковских расчетов и денежных переводов. Разрабатывается компанией Ripple Labs.",
+      "price": "$0.52",
+      "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png",
+      "marketCap": "$28.3 млрд"
+    },
+    {
+      "name": "Polkadot (DOT)",
+      "description": "Протокол для взаимодействия разных блокчейнов. Создан соучредителем Ethereum Гэвином Вудом.",
+      "price": "$6.78",
+      "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
+      "marketCap": "$9.5 млрд"
+    },
+    {
+      "name": "Dogecoin (DOGE)",
+      "description": "Мем-криптовалюта, созданная как шутка, но получившая популярность благодаря поддержке Илона Маска.",
+      "price": "$0.12",
+      "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
+      "marketCap": "$17.2 млрд"
+    },
+    {
+      "name": "Avalanche (AVAX)",
+      "description": "Платформа для запуска децентрализованных приложений и кастомных блокчейн-решений с высокой пропускной способностью.",
+      "price": "$34.56",
+      "image": "https://cryptologos.cc/logos/avalanche-avax-logo.png",
+      "marketCap": "$13.1 млрд"
+    },
+    {
+      "name": "Chainlink (LINK)",
+      "description": "Децентрализованный oracle-сервис, предоставляющий реальные данные для смарт-контрактов на блокчейне.",
+      "price": "$14.23",
+      "image": "https://cryptologos.cc/logos/chainlink-link-logo.png",
+      "marketCap": "$8.3 млрд"
+    },
+    {
+      "name": "Polygon (MATIC)",
+      "description": "Решение для масштабирования Ethereum, предоставляющее более дешевые и быстрые транзакции.",
+      "price": "$0.68",
+      "image": "https://cryptologos.cc/logos/polygon-matic-logo.png",
+      "marketCap": "$6.7 млрд"
+    },
+    {
+      "name": "Litecoin (LTC)",
+      "description": "Одна из первых альткоинов, созданная как 'легкая версия' Bitcoin с более быстрыми транзакциями.",
+      "price": "$72.34",
+      "image": "https://cryptologos.cc/logos/litecoin-ltc-logo.png",
+      "marketCap": "$5.4 млрд"
+    },
+    {
+      "name": "Uniswap (UNI)",
+      "description": "Крупнейший децентрализованный обменник (DEX) на Ethereum с автоматическим маркет-мейкингом.",
+      "price": "$5.67",
+      "image": "https://cryptologos.cc/logos/uniswap-uni-logo.png",
+      "marketCap": "$4.3 млрд"
+    },
+    {
+      "name": "Bitcoin Cash (BCH)",
+      "description": "Форк Bitcoin с увеличенным размером блока, созданный для решения проблем масштабируемости.",
+      "price": "$425",
+      "image": "https://cryptologos.cc/logos/bitcoin-cash-bch-logo.png",
+      "marketCap": "$8.2 млрд"
+    },
+    {
+      "name": "Stellar (XLM)",
+      "description": "Платформа для денежных переводов и выпуска активов, разработанная одним из создателей Ripple.",
+      "price": "$0.11",
+      "image": "https://cryptologos.cc/logos/stellar-xlm-logo.png",
+      "marketCap": "$3.1 млрд"
+    },
+    {
+      "name": "VeChain (VET)",
+      "description": "Блокчейн-платформа для управления цепями поставок и бизнес-процессами с фокусом на IoT.",
+      "price": "$0.028",
+      "image": "https://cryptologos.cc/logos/vechain-vet-logo.png",
+      "marketCap": "$2.1 млрд"
+    },
+    {
+      "name": "Filecoin (FIL)",
+      "description": "Децентрализованное хранилище данных, где пользователи могут арендовать свободное место на жестких дисках.",
+      "price": "$4.56",
+      "image": "https://cryptologos.cc/logos/filecoin-fil-logo.png",
+      "marketCap": "$2.5 млрд"
+    },
+    {
+      "name": "Monero (XMR)",
+      "description": "Криптовалюта с повышенной анонимностью, использующая кольцевые подписи и скрытые адреса.",
+      "price": "$165",
+      "image": "https://cryptologos.cc/logos/monero-xmr-logo.png",
+      "marketCap": "$3.0 млрд"
+    },
+    {
+      "name": "Algorand (ALGO)",
+      "description": "Блокчейн с чистым Proof-of-Stake, разработанный криптографом Сильвио Микали.",
+      "price": "$0.15",
+      "image": "https://cryptologos.cc/logos/algorand-algo-logo.png",
+      "marketCap": "$1.2 млрд"
+    },
+    {
+      "name": "Cosmos (ATOM)",
+      "description": "Экосистема взаимосвязанных блокчейнов, решающая проблему интероперабельности.",
+      "price": "$8.23",
+      "image": "https://cryptologos.cc/logos/cosmos-atom-logo.png",
+      "marketCap": "$3.2 млрд"
     }
   ]
 }
